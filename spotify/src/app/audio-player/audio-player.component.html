@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio-Player</title>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+  <script src="https://cdn.plyr.io/3.6.12/plyr.polyfilled.js"></script>
+</head>
+<body>
+
+  <app-custlayout></app-custlayout>
+
+  
+
+  <div class="card">
+    <div class="align">
+      <div *ngFor="let f of d">
+        <img src="{{f.songCover}}" alt="Loading" />
+        <h3>Song Name : {{f.songName}}</h3>
+        <h3>Genre : {{f.genre}}</h3>
+        <h3>Artist : {{f.artist}}</h3>
+      </div>
+      <audio id="player" controls="controls" autoplay controlslist="nodownload">
+      </audio>
+    </div>
+  </div>
+
+  
+</body>
+</html>

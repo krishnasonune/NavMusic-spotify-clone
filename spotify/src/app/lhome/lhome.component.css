@@ -1,0 +1,701 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+  body::content {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    /*https: //images.hdqwalls.com/wallpapers/vinyl-disk-image.jpg*/
+    /*background-image: url('https://w0.peakpx.com/wallpaper/166/862/HD-wallpaper-music-black-cola-disck-mustang-song-sound-vinyl-white.jpg');*/
+    background: rgba(0,0,0,0.97);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background-size: cover;
+  }
+
+.container {
+  width: 100%;
+  height: 90%;
+  margin-top: 1vh;
+  margin-right: auto;
+  margin-left: auto;
+  /*background: rgb(153, 28, 204);*/
+  background-image: url('src/assets/duotone1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.align {
+    margin-top: 30vh;
+    text-align:left;
+    color:black;
+    margin-left:15vw;
+    text-shadow: 2px 2px 4px white;
+}
+
+img {
+    margin-top: 5vh;
+    height: 88%;
+    width:25%;
+    box-shadow: 20px 20px 40px black;
+}
+
+button {
+    margin-top:4vh;
+    height: 7.5vh;
+    width: 15vw;
+    border-radius: 4vh;
+    font-weight:800;
+}
+
+.why {
+  margin-top: 12vh;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 3vh;
+}
+
+.container2 {
+  width: 100%;
+  height:75%;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+
+
+.box {
+  width: 20%;
+  color: white;
+  
+}
+
+
+  .box img {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 40%;
+    border-radius: 7vh;
+    box-shadow: 8px 8px 16px #02dc02;
+  }
+
+  .box h2 {
+      margin-top: 6vh;
+      text-align:center;
+
+  }
+
+  .box p {
+      margin-top: 4vh;
+      text-align:left;
+      font-size: 2.8vh;
+      margin-left: 2vw;
+  }
+
+
+.container3 {
+  width: 100%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  /*background: rgb(153, 28, 204);*/
+  background-image: url('src/assets/duotone2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.aligncred {
+  margin-top: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px white;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      /*https: //images.hdqwalls.com/wallpapers/vinyl-disk-image.jpg*/
+      /*background-image: url('https://w0.peakpx.com/wallpaper/166/862/HD-wallpaper-music-black-cola-disck-mustang-song-sound-vinyl-white.jpg');*/
+      background: rgba(0,0,0,0.97);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+  .container {
+    width: 100%;
+    height: 50%;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .align {
+    margin-top: 10vh;
+    text-align: left;
+    color: black;
+    font-size:1.5vh;
+    margin-left: 8vw;
+    text-shadow: 2px 2px 4px white;
+  }
+
+  img {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    height: 90%;
+    width: 50%;
+    box-shadow: 20px 20px 40px black;
+  }
+
+  button {
+    margin-top: 2vh;
+    height: 9vh;
+    font-size: 2.5vh;
+    width: 32VW;
+    border-radius: 3vh;
+    font-weight: 800;
+  }
+
+  .why {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 50%;
+    margin-top: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+
+  .box {
+    width: 20%;
+    color: white;
+  }
+
+
+    .box img {
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      height: 20%;
+      border-radius: 2vh;
+      box-shadow: 8px 8px 16px #02dc02;
+    }
+
+    .box h2 {
+      margin-top: 4vh;
+      text-align: center;
+      font-size:2vh;
+    }
+
+    .box p {
+      margin-top: 2vh;
+      text-align: center;
+      font-size: 1.5vh;
+      margin-left: 2vw;
+    }
+
+
+  .container3 {
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .aligncred {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px white;
+  }
+
+
+}
+
+
+@media only screen and (min-width:361px) and (max-width: 500px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background: rgba(0,0,0,0.97);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+  .container {
+    width: 100%;
+    height: 50%;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .align {
+    margin-top: 10vh;
+    text-align: left;
+    color: black;
+    font-size: 2vh;
+    margin-left: 8vw;
+    text-shadow: 2px 2px 4px white;
+  }
+
+  img {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    height: 90%;
+    width: 50%;
+    box-shadow: 20px 20px 40px black;
+  }
+
+  button {
+    margin-top: 2vh;
+    height: 9vh;
+    font-size: 2.5vh;
+    width: 32VW;
+    border-radius: 3vh;
+    font-weight: 800;
+  }
+
+  .why {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 50%;
+    margin-top: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+
+  .box {
+    width: 20%;
+    color: white;
+  }
+
+
+    .box img {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      height: 27%;
+      border-radius: 2vh;
+      box-shadow: 8px 8px 16px #02dc02;
+    }
+
+    .box h2 {
+      margin-top: 4vh;
+      text-align: center;
+      font-size: 2.5vh;
+    }
+
+    .box p {
+      margin-top: 2vh;
+      text-align: center;
+      font-size: 2vh;
+      margin-left: 2vw;
+    }
+
+
+  .container3 {
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .aligncred {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px white;
+  }
+
+
+}
+
+@media only screen and (min-width:501px) and (max-width: 720px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background: rgba(0,0,0,0.97);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+  .container {
+    width: 100%;
+    height: 50%;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .align {
+    margin-top: 10vh;
+    text-align: left;
+    color: black;
+    font-size: 2vh;
+    margin-left: 8vw;
+    text-shadow: 2px 2px 4px white;
+  }
+
+  img {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    height: 90%;
+    width: 50%;
+    box-shadow: 20px 20px 40px black;
+  }
+
+  button {
+    margin-top: 2vh;
+    height: 9vh;
+    font-size: 2.5vh;
+    width: 32VW;
+    border-radius: 3vh;
+    font-weight: 800;
+  }
+
+  .why {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 50%;
+    margin-top: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+
+  .box {
+    width: 20%;
+    color: white;
+  }
+
+
+    .box img {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      height: 27%;
+      border-radius: 2vh;
+      box-shadow: 8px 8px 16px #02dc02;
+    }
+
+    .box h2 {
+      margin-top: 4vh;
+      text-align: center;
+      font-size: 2.9vh;
+    }
+
+    .box p {
+      margin-top: 2vh;
+      text-align: center;
+      font-size: 2.3vh;
+      margin-left: 2vw;
+    }
+
+
+  .container3 {
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .aligncred {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.3vw;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px white;
+  }
+
+
+}
+
+@media only screen and (min-width:721px) and (max-width: 999px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background: rgba(0,0,0,0.97);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+  .container {
+    width: 100%;
+    height: 50%;
+    margin-top: 1vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .align {
+    margin-top: 10vh;
+    text-align: left;
+    color: black;
+    font-size: 2vh;
+    margin-left: 8vw;
+    text-shadow: 2px 2px 4px white;
+  }
+
+  img {
+    margin-top: 5vh;
+    margin-left: 4vw;
+    height: 90%;
+    width: 30%;
+    box-shadow: 20px 20px 40px black;
+  }
+
+  button {
+    margin-top: 2vh;
+    height: 9vh;
+    font-size: 2.5vh;
+    width: 32VW;
+    border-radius: 3vh;
+    font-weight: 800;
+  }
+
+  .why {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+  }
+
+  .container2 {
+    width: 100%;
+    height: 50%;
+    margin-top: 3vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+
+  .box {
+    width: 20%;
+    color: white;
+  }
+
+
+    .box img {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      height: 27%;
+      border-radius: 2vh;
+      box-shadow: 8px 8px 16px #02dc02;
+    }
+
+    .box h2 {
+      margin-top: 4vh;
+      text-align: center;
+      font-size: 2.9vh;
+    }
+
+    .box p {
+      margin-top: 2vh;
+      text-align: center;
+      font-size: 2.4vh;
+      margin-left: 2vw;
+    }
+
+
+  .container3 {
+    width: 100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('src/assets/duotone2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+
+  .aligncred {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px white;
+  }
+
+
+}

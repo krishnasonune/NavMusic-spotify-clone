@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login</title>
+</head>
+<body>
+  <app-commonlayout></app-commonlayout>
+  <div class="card">
+    <form #loginform="ngForm" (ngSubmit)="sub(loginform)">
+      <h1>Login</h1>
+      <div class="align">
+
+       
+          <label>Email</label>
+
+          <input type="email" name="name" ngModel placeholder="Email" />
+
+
+
+
+          <br />
+
+
+          <label>Password</label>
+
+          <input type="password" name="pass" ngModel placeholder="password" />
+          
+        
+        <br />
+        <a routerLink="/register" class="nav-link" href="#">new to NavMusic..? Signup Now</a>
+        <br />
+        <button type="submit" [disabled]="!loginform.form.valid">Login</button>
+      </div>
+    </form>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>result</title>
+</head>
+<body>
+  <app-custlayout></app-custlayout>
+  <div *ngIf="resp1">
+    <div class="line">
+      <h1>Search Result : </h1>
+    </div>
+    <br />
+    <div class="container" *ngFor="let r of resp1">
+      
+        <div>
+          <img src="{{r.songCover}}" alt="loading" />
+
+
+        </div>
+      
+      <div class="line2">
+        <h1 id="url">{{r.songName}}</h1>
+        <button type="button" (click)="do()">play</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

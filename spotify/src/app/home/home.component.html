@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>home</title>
+
+</head>
+<body>
+  <app-custlayout></app-custlayout>
+
+
+
+
+  <div class="container2">
+
+    <div class="aligntext">
+      <h1>Welcome {{user}} to the world of Unlimited & Ad Free Music</h1>
+      <h1>Enjoy listening to your favourite Songs</h1>
+    </div>
+
+  </div>
+
+
+  <h1 class="hh1">Mostly Viewed</h1>
+
+  <div class="container">
+    <div class="box">
+
+      <img src="https://paglasongs.com/uploads/thumb/sft9/4252_4.jpg" alt="loading" />
+      <p>Eyy Bidda Ye Mera Adda</p>
+      <button type="button" (click)="get('Eyy Bidda Ye Mera Adda')">play</button>
+    </div>
+
+    <div class="box">
+
+      <img src="https://naasongsmp3.net/wp-content/uploads/2021/10/Srivalli-Song.jpg" alt="loading" />
+      <p>Srivalli</p>
+      <button type="button" (click)="get('srivalli')">play</button>
+    </div>
+
+    <div class="box">
+
+      <img src="https://i.scdn.co/image/ab67616d0000b27309426d9ae9d8d981735ebc5e" alt="loading" />
+      <p>Ranjha</p>
+      <button type="button" (click)="get('ranjha')">play</button>
+    </div>
+
+  </div>
+
+
+  <h1 class="hh1">Hit Songs</h1>
+
+
+  
+
+  <owl-carousel-o [options]="customOptions" >
+
+    
+    <ng-template carouselSlide *ngFor="let c of x">
+      
+        <img src="{{c.songCover}}" alt="loading" />
+        <p>{{c.songName}}</p>
+        <p>{{c.artist}}</p>
+        <button type="button" (click)="get(c.songName)">play</button>
+      
+    </ng-template>
+
+    
+      
+  </owl-carousel-o>
+
+  
+
+
+
+
+
+  
+
+
+
+
+  <div class="safe">
+    <!--safe border-->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

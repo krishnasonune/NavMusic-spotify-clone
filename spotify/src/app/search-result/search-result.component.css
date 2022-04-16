@@ -1,0 +1,401 @@
+h1, h2 {
+    margin-bottom: 1.5vh;
+}
+
+.line {
+  float: left;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 1.1em;
+}
+
+.line2 {
+  font-size: 0.8em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+  body::content {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x:hidden;
+  }
+
+.container {
+  width: 25%;
+  height: 30vh;
+  background: transparent;
+  margin-top: 30vh;
+  margin-right: auto;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+  .container:hover {
+    transform:scale(1.05);
+    color: black;
+    background-color: transparent /*rgb(30, 215, 96)*/;
+  }
+
+
+
+
+img {
+  
+  width: 15vw;
+  height: 25vh;
+  border-radius: 1.4vh;
+}
+
+.align {
+    margin-top:15vh;
+}
+
+button {
+    width:8vw;
+    height:6vh;
+}
+
+  button:hover {
+    color: rgb(30, 215, 96);
+    background: black;
+  }
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+
+  h1, h2 {
+    margin-bottom: 1.5vh;
+  }
+
+  .line {
+    float: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 0.7em;
+  }
+
+  .line2 {
+    font-size: 0.4em;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      color: white;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      background-size: cover;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .container {
+    width: 25%;
+    height: 30vh;
+    background: transparent;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+    .container:hover {
+      transform: scale(1.05);
+      color: black;
+      background-color: transparent /*rgb(30, 215, 96)*/;
+    }
+
+
+
+
+  img {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 1.4vh;
+  }
+
+  .align {
+    margin-top: 15vh;
+  }
+
+  button {
+    width: 8vw;
+    height: 6vh;
+  }
+
+    button:hover {
+      color: rgb(30, 215, 96);
+      background: black;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 361px) and (max-width: 500px) {
+
+  h1, h2 {
+    margin-bottom: 1.2vh;
+  }
+
+  .line {
+    float: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 0.7em;
+  }
+
+  .line2 {
+    font-size: 0.5em;
+    margin-left: 3vw;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      color: white;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      background-size: cover;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .container {
+    width: 25%;
+    height: 30vh;
+    background: transparent;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+    .container:hover {
+      transform: scale(1.05);
+      color: black;
+      background-color: transparent /*rgb(30, 215, 96)*/;
+    }
+
+
+
+
+  img {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 1.4vh;
+  }
+
+  .align {
+    margin-top: 15vh;
+  }
+
+  button {
+    width: 8vw;
+    height: 6vh;
+  }
+
+    button:hover {
+      color: rgb(30, 215, 96);
+      background: black;
+    }
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 720px) {
+
+  h1, h2 {
+    margin-bottom: 1.5vh;
+  }
+
+  .line {
+    float: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 0.7em;
+  }
+
+  .line2 {
+    font-size: 0.45em;
+    margin-left:0.5vw;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      color: white;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      background-size: cover;
+      overflow-y: scroll;
+    }
+
+  .container {
+    width: 25%;
+    height: 30vh;
+    background: transparent;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+    .container:hover {
+      transform: scale(1.05);
+      color: black;
+      background-color: transparent /*rgb(30, 215, 96)*/;
+    }
+
+
+
+
+  img {
+    width: 25vw;
+    height: 28vh;
+    border-radius: 1.4vh;
+  }
+
+  .align {
+    margin-top: 15vh;
+  }
+
+  button {
+    width: 8vw;
+    height: 6vh;
+  }
+
+    button:hover {
+      color: rgb(30, 215, 96);
+      background: black;
+    }
+}
+
+
+
+@media only screen and (min-width: 721px) and (max-width: 999px) {
+
+  h1, h2 {
+    margin-bottom: 1.5vh;
+  }
+
+  .line {
+    float: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 0.7em;
+  }
+
+  .line2 {
+    font-size: 0.48em;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      color: white;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      background-size: cover;
+      overflow-y: scroll;
+      overflow-x:hidden;
+    }
+
+  .container {
+    width: 25%;
+    height: 30vh;
+    background: transparent;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+
+    .container:hover {
+      transform: scale(1.05);
+      color: black;
+      background-color: transparent /*rgb(30, 215, 96)*/;
+    }
+
+
+
+
+  img {
+    width: 23vw;
+    height: 25vh;
+    border-radius: 1.4vh;
+  }
+
+  .align {
+    margin-top: 15vh;
+  }
+
+  button {
+    width: 8vw;
+    height: 6vh;
+  }
+
+    button:hover {
+      color: rgb(30, 215, 96);
+      background: black;
+    }
+}
+
+
+

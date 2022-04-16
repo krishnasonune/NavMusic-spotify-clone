@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="alignLogo">
+    <img src="assets/logo.png" alt="Alternate Text" />
+    <h1>NavMusic</h1>
+  </div>
+  <header>
+    <input type="checkbox" name="" id="">
+
+    <nav>
+
+      <a routerLink="/main-home" class="nav-link" href="" style="--i:1">Home</a>
+      <a routerLink="/login" class="nav-link" href="" style="--i:2">login</a>
+      <a routerLink="/register" class="nav-link" href="" style="--i:3">register</a>
+      <a routerLink="/about" class="nav-link" href="" style="--i:4">About</a>
+    </nav>
+  </header>
+  <!--load.isLoading | async-->
+  <div class="mat" *ngIf="spin">
+    <mat-spinner style="margin-left:auto; margin-right:auto; top: 40%"></mat-spinner>
+
+  </div>
+
+</body>
+</html>

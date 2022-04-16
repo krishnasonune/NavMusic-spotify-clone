@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>register</title>
+</head>
+<body>
+  <app-commonlayout></app-commonlayout>
+  <div class="card">
+    <form #loginform="ngForm" (ngSubmit)="sub(loginform)">
+      <h1>Register</h1>
+      <div class="align">
+
+        <label>Name</label>
+        <input type="text" name="name" ngModel value="" placeholder="Name" />
+          
+
+        <br />
+
+
+        <label>Username </label>
+        <input type="text" name="ename" ngModel value="" placeholder="Email" />
+        <br />
+
+        <label>Password </label>
+        <input type="password" name="pass" ngModel value="" placeholder="password" />
+          
+
+
+
+
+        <br />
+        <button type="submit" [disabled]="!loginform.form.valid">Register</button>
+      </div>
+    </form>
+
+  </div>
+</body>
+</html>

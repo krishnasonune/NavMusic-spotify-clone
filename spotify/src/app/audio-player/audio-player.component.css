@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+  body::content {
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+.card {
+  
+  background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 28%;
+  height: 70%;
+  margin-top: 10vh;
+  border-radius: 4vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .card::content {
+      text-align:center;
+      
+  }
+
+
+.align {
+    padding-top: 7vh;
+}
+
+h3 {
+  font-family: 'Akaya Telivigala', cursive;
+  color:white;
+  margin: 2vh;
+  text-shadow: 2px 2px 4px black;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    border-radius:4vh;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .card {
+    background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 80%;
+    height: 80%;
+    margin-top: 10vh;
+    border-radius: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .card::content {
+      text-align: center;
+    }
+
+
+  .align {
+    padding-top: 7vh;
+  }
+
+  h3 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    margin: 1.5vh;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+    border-radius: 4vh;
+  }
+
+  audio {
+      width: 95%;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .card {
+    background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 80%;
+    height: 90%;
+    margin-top: 10vh;
+    border-radius: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .card::content {
+      text-align: center;
+    }
+
+
+  .align {
+    padding-top: 7vh;
+  }
+
+  h3 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    margin: 2vh;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+    border-radius: 4vh;
+  }
+  audio {
+      width:93%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 720px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .card {
+    background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 60%;
+    height: 92%;
+    margin-top: 10vh;
+    border-radius: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .card::content {
+      text-align: center;
+    }
+
+
+  .align {
+    padding-top: 7vh;
+  }
+
+  h3 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    margin: 2vh;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+    border-radius: 4vh;
+  }
+
+  audio {
+      width:93%;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 999px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+    body::content {
+      content: '';
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      background-color: #F4D03F;
+      background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+  .card {
+    background-image: url('https://toppng.com/uploads/preview/microphone-device-music-sound-dark-11569915014viix5krik1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 60%;
+    height: 90%;
+    margin-top: 10vh;
+    border-radius: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .card::content {
+      text-align: center;
+    }
+
+
+  .align {
+    padding-top: 7vh;
+  }
+
+  h3 {
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+    margin: 2vh;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  img {
+    height: 35%;
+    width: 35%;
+    border-radius: 4vh;
+  }
+}
+
+
